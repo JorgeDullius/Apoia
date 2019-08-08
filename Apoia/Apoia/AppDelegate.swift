@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Apoia
 //
-//  Created by eldorado on 8/8/19.
-//  Copyright © 2019 Hackatruck. All rights reserved.
+//  Created by student on 08/08/19.
+//  Copyright © 2019 student. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
