@@ -301,6 +301,7 @@
 				3F00BB8122FCE23600E48CC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
