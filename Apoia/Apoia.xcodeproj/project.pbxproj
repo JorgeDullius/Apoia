@@ -12,6 +12,14 @@
 		3F00BB7622FCE23600E48CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F00BB7422FCE23600E48CC5 /* Main.storyboard */; };
 		3F00BB7822FCE23600E48CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F00BB7722FCE23600E48CC5 /* Assets.xcassets */; };
 		3F00BB7B22FCE23600E48CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F00BB7922FCE23600E48CC5 /* LaunchScreen.storyboard */; };
+		3FDA6093230618E200E4AC3D /* Materias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA6092230618E200E4AC3D /* Materias.swift */; };
+		3FDA60952306194400E4AC3D /* MateriaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA60942306194400E4AC3D /* MateriaTableViewController.swift */; };
+		3FDA609723061A4800E4AC3D /* MateriaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA609623061A4800E4AC3D /* MateriaTableViewCell.swift */; };
+		3FDA609923061D1500E4AC3D /* DadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA609823061D1500E4AC3D /* DadosViewController.swift */; };
+		3FDA609D2306289200E4AC3D /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA609C2306289200E4AC3D /* CadastroViewController.swift */; };
+		3FDA609F23062A5200E4AC3D /* Metodos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA609E23062A5200E4AC3D /* Metodos.swift */; };
+		3FDA60A123062EEE00E4AC3D /* MetodosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA60A023062EEE00E4AC3D /* MetodosTableViewController.swift */; };
+		3FDA60A323062F0200E4AC3D /* MetodosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA60A223062F0200E4AC3D /* MetodosTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		3F00BB7722FCE23600E48CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F00BB7A22FCE23600E48CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F00BB7C22FCE23600E48CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDA6092230618E200E4AC3D /* Materias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Materias.swift; sourceTree = "<group>"; };
+		3FDA60942306194400E4AC3D /* MateriaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MateriaTableViewController.swift; sourceTree = "<group>"; };
+		3FDA609623061A4800E4AC3D /* MateriaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MateriaTableViewCell.swift; sourceTree = "<group>"; };
+		3FDA609823061D1500E4AC3D /* DadosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadosViewController.swift; sourceTree = "<group>"; };
+		3FDA609C2306289200E4AC3D /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		3FDA609E23062A5200E4AC3D /* Metodos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metodos.swift; sourceTree = "<group>"; };
+		3FDA60A023062EEE00E4AC3D /* MetodosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetodosTableViewController.swift; sourceTree = "<group>"; };
+		3FDA60A223062F0200E4AC3D /* MetodosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetodosTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,8 @@
 		3F00BB6F22FCE23600E48CC5 /* Apoia */ = {
 			isa = PBXGroup;
 			children = (
+				3FDA6091230618A900E4AC3D /* Model */,
+				3FDA60902306184A00E4AC3D /* Controller */,
 				3F00BB7022FCE23600E48CC5 /* AppDelegate.swift */,
 				3F00BB7222FCE23600E48CC5 /* ViewController.swift */,
 				3F00BB7422FCE23600E48CC5 /* Main.storyboard */,
@@ -62,6 +80,28 @@
 				3F00BB7C22FCE23600E48CC5 /* Info.plist */,
 			);
 			path = Apoia;
+			sourceTree = "<group>";
+		};
+		3FDA60902306184A00E4AC3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FDA60942306194400E4AC3D /* MateriaTableViewController.swift */,
+				3FDA609623061A4800E4AC3D /* MateriaTableViewCell.swift */,
+				3FDA609823061D1500E4AC3D /* DadosViewController.swift */,
+				3FDA609C2306289200E4AC3D /* CadastroViewController.swift */,
+				3FDA60A023062EEE00E4AC3D /* MetodosTableViewController.swift */,
+				3FDA60A223062F0200E4AC3D /* MetodosTableViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3FDA6091230618A900E4AC3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FDA6092230618E200E4AC3D /* Materias.swift */,
+				3FDA609E23062A5200E4AC3D /* Metodos.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +176,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDA609923061D1500E4AC3D /* DadosViewController.swift in Sources */,
+				3FDA609723061A4800E4AC3D /* MateriaTableViewCell.swift in Sources */,
 				3F00BB7322FCE23600E48CC5 /* ViewController.swift in Sources */,
+				3FDA60A123062EEE00E4AC3D /* MetodosTableViewController.swift in Sources */,
+				3FDA609F23062A5200E4AC3D /* Metodos.swift in Sources */,
+				3FDA6093230618E200E4AC3D /* Materias.swift in Sources */,
+				3FDA60952306194400E4AC3D /* MateriaTableViewController.swift in Sources */,
+				3FDA609D2306289200E4AC3D /* CadastroViewController.swift in Sources */,
 				3F00BB7122FCE23600E48CC5 /* AppDelegate.swift in Sources */,
+				3FDA60A323062F0200E4AC3D /* MetodosTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
